@@ -1,0 +1,123 @@
+.nav-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+.nav-icons{
+    display: flex;
+    gap: 20px;
+}
+.humbarger i{
+ color: rgb(73, 3, 3);
+}
+.king-logo h1{
+    color: rgb(73, 3, 3);
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+.nav-icons p i{
+    color: rgb(73, 3, 3);
+}
+/* -------------------------------------------------- */
+.hero-main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-img img{
+    width: 50vw;
+    height: auto;
+}
+.hero-ctn h2{
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+    width: 35vw;
+    color: rgb(73, 3, 3);
+}
+.hero-btn1{
+    padding: 15px 100px;
+    outline: none;
+    border-radius: 90px;
+    background-color: rgb(221, 38, 6);
+    border: 1px solid rgb(221, 38, 6);
+}
+.hero-btn1 i{
+    color: white;
+    padding-right: 10px;
+}
+
+.hero-btn1{
+    color: white;
+    font-weight: bold;
+}
+.hero-btn2 i{
+    padding-right: 10px;
+}
+.hero-btn2{
+    margin-top: 20px;
+    padding: 15px 94px;
+    outline: none;
+    border-radius: 90px;
+    color: rgb(221, 38, 6);
+    background-color: white;
+    border: 1px solid rgb(221, 38, 6);
+    font-weight: bold;
+}
+/* -------------------------------------------------------------------- */
+.card{
+    width: 40vw;
+}
+.cards-main{
+    margin-top: 50px;
+    margin-left: 80px;
+}
+/* ------------------------------------------------------------------------ */
+.promo-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #e9e2e2;
+    padding: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+.promo-container img {
+    max-width: 250px;
+}
+
+.promo-text {
+    text-align: center;
+}
+
+.promo-text h1 {
+    font-size: 40px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(221, 38, 6);
+    text-align: start;
+}
+
+.app-links {
+    display: flex;
+    gap: 10px;
+    justify-content: start;
+    cursor: pointer;
+}
+.app-links p{
+    background-color: black;
+    color: white;
+    padding: 14px;
+    border-radius: 10px;
+}
+
+.legal-text {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 10px;
+    width: 50vw;
+    text-align: start;
+    color: rgb(221, 38, 6);
+}
